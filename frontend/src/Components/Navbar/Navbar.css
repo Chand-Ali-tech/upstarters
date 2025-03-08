@@ -1,0 +1,79 @@
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+  position: relative;
+  z-index: 1000;
+}
+.profile svg {
+  height: 15px;
+  width: 15px;
+}
+.nav-button {
+  text-decoration: none;
+}
+.logo-profile-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.search-bar {
+  flex-grow: 1;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-container {
+  position: relative;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  backdrop-filter: blur(4px);
+}
+.main-content {
+  position: relative;
+  transition: filter 0.3s ease;
+}
+.blur-content {
+  pointer-events: none;
+  user-select: none;
+}
+.profile:hover {
+  cursor: pointer;
+  background-color: #028858;
+  fill: white;
+  border: white;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-bar {
+    order: 2;
+    margin: 10px 0;
+    max-width: 80%;
+  }
+  .NavBarLogo {
+    order: 1;
+  }
+}
+@media (max-width: 576px) {
+  .NavBarLogo p {
+    font-size: 1rem;
+  }
+}

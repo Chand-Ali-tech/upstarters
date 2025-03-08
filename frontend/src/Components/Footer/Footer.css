@@ -1,0 +1,123 @@
+/* Footer General Styles */
+.footer-container {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  color: #333;
+}
+.footer-top {
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li {
+  margin: 0 15px;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+  color: #028858;
+}
+
+/* Middle Section */
+.footer-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer-column {
+  margin: 15px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  color: #028858;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  text-align: center;
+  margin: 15px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #028858;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-bottom ul li a:hover {
+  color: #028858;
+}

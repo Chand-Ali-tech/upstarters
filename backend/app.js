@@ -11,7 +11,7 @@ const cors = require("cors");
 
 // Configure CORS options
 const corsOptions = {
-  origin: "https://upstarters.vercel.app", 
+  origin: true, 
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allow all HTTP methods
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)
 };

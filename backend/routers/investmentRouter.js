@@ -4,6 +4,6 @@ const authController = require("./../controllers/authController");
 const UserController = require("./../controllers/userController");
 const investmentController = require("./../controllers/investmentController");
 
-router.route("/:id").post(authController.Protect, investmentController.invest);
+router.route("/:id").post(authController.Protect, investmentController.invest, {withCredentials:true});
 
 module.exports = router;
